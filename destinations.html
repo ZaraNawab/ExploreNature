@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nature - Destinations</title>
+    <style>
+        /* Internal CSS for Destinations Page */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #55a628;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .destination {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+        .destination-item {
+            width: 30%;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .destination-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .destination-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .destination-description {
+            font-size: 0.9rem;
+        }
+ 	nav {
+            background-color: #2c3e50;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #1a252f;
+        }
+	.active { 
+	background: #94b399; 
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Nature - Destinations</h1>
+        <p>Discover a curated list of stunning ecotourism destinations worldwide.</p>
+    </header>
+ <nav>
+        <!-- Navigation Bar -->
+        <a href="index.html">Home</a>
+        <a href="destinations.html" class="active">Destinations</a>
+        <a href="tips.html">Tips for Responsible Ecotourism</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <div class="destination">
+            <!-- Destination 1: Amazon Rainforest -->
+            <div class="destination-item">
+                <img src="amazon.jpg" alt="Amazon Rainforest" class="destination-image">
+                <h2 class="destination-title">Amazon Rainforest</h2>
+                <p class="destination-description">The Amazon Rainforest, the "lungs of the Earth," is a biodiversity hotspot with rich flora and fauna. Learn about its conservation efforts and how you can make a positive impact on your visit.</p>
+            </div>
+
+            <!-- Destination 2: Serengeti National Park -->
+            <div class="destination-item">
+                <img src="serengeti.jfif" alt="Serengeti National Park" class="destination-image">
+                <h2 class="destination-title">Serengeti National Park</h2>
+                <p class="destination-description">Embark on an African safari in the Serengeti, where you can witness the Great Migration and witness the circle of life in action.</p>
+            </div>
+
+            <!-- Destination 3: Galápagos Islands -->
+            <div class="destination-item">
+                <img src="galapagos.jfif" alt="Galápagos Islands" class="destination-image">
+                <h2 class="destination-title">Galápagos Islands</h2>
+                <p class="destination-description">Explore the Galápagos Islands, a living laboratory of evolution, and encounter unique wildlife that inspired Charles Darwin's theory of natural selection.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
